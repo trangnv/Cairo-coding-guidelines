@@ -6,7 +6,7 @@
 
 *Xin cảm ơn [Mathieu Saugier](https://twitter.com/eniwhere_), [Soufiane Hajazi](https://twitter.com/quixotic_eth), [Krzysztof Szubiczuk](https://twitter.com/kaliberpoziomka) và [Edgar Barrantes](https://twitter.com/EdgarBarrantes) vì các ý kiến đóng góp và chỉnh sửa*
 
-
+## Lập trình với Cairo
 Lập trình với Cairo có thể khá khó khăn bởi 2 lý do: lập trình viên có xu hướng sử dụng các khuôn mẫu (patterns) code từ Solidity; Cairo thay đổi cú pháp (syntax), API liên tục, mới nhất là cập nhật từ 0.9.0 lên 0.10.0. Mặc dù vậy, công nghệ zk-rollup đã và sẽ phát triển, với số lượng lập trình viên gia nhập hệ sinh thái StarkNet và học Cairo tăng lên hàng tuần. Tại Nethermind, chúng tôi đã và đang làm việc với Cairo thông qua hàng loạt các dự án và vì thế muốn chia sẻ những khuôn mẫu code, mẹo, khuyến nghị mà chúng tôi dùng để chuẩn hoá Cairo code.
 
 ## Lời mở đầu
