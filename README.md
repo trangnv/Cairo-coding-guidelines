@@ -21,7 +21,7 @@ Khác với Solidity, trong Cairo bạn không thể dùng inheritance. Thay và
     - file contract, tên `my_contract.cairo`, sẽ gồm các hàm external so với các files thư viện. Ví dụ, 1 hợp đồng cToken viết từ 1 hợp đồng ERC20  chứa đựng cả tất cả các hàm trong `c_token_library.cairo` and `erc20_library.cairo`.
 
 - Đối với abstract contract:
-    - file thư viện, đặt tên theo quy ước giống như trên. Trong thực tế là abstract contract không nên chứa các hàm mà chỉ cung cấp code cho các contracts khác.
+    - file thư viện, đặt tên theo quy ước giống như trên. Trong thực tế abstract contract không nên chứa các hàm mà chỉ cung cấp code cho các contracts khác.
 
 ### Quy ước đặt tên
 Đa phần, không phải tất cả chúng tôi sẽ theo các khuyến nghị từ OpenZeppelin, bạn có thể theo dõi bài viết của họ về [Extensibility pattern](https://github.com/OpenZeppelin/cairo-contracts/blob/main/docs/modules/ROOT/pages/extensibility.adoc)
